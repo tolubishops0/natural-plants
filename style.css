@@ -50,7 +50,7 @@ a{
 }
 
 .section-1{
-    background: url(/images/1.svg);
+    background: url(./images/1.svg);
     background-position: center;
 }
 
