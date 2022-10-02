@@ -1,0 +1,286 @@
+html {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a{
+    color: white;
+}
+
+.nav-items .home-button a{
+    color: #FEE348;
+}
+
+.natural-plants{
+    color: white;
+}
+
+.section-1{
+    background: url(/images/1.svg);
+    background-position: center;
+}
+
+.section-1-body{
+    background: #00000069;
+    padding: 15% 0 17% 15%;
+    line-height: 30px;
+    color: white;
+}
+
+.section-1-body p{
+    margin-top: 2%;
+}
+
+.section-1-button-class{
+    margin-top: 3%;
+    background: transparent;
+    border: .5px solid #FEE348;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.section-1-button-class a{
+    color: #FEE348;
+}
+
+.section-2{
+    padding-bottom: 5%;
+    background-color: #F5F5F5;
+}
+
+.bigP{
+    font-weight: bold;
+}
+
+.center-class{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.section-2-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 3% 0 0 15%;
+}
+
+.section-2-flex-image{
+    width: 39%;
+    height: auto;
+}
+
+.paragraph{
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.arrow{
+    display: block;
+    margin-top: 5%;
+    width: 10em;
+    border: 2px solid transparent;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(66, 102, 71, 0.12);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: smaller;
+    padding: 5px 10px;
+}
+
+.section-3{
+    background: #399606;
+    padding-bottom: 5%;
+}
+
+.center-class-section-3{
+    color: white;
+}
+
+.section-3-img{
+    display: flex;
+    margin: 3% 10% 0 15%;
+}
+
+.flex-flower1,
+.flex-flower2,
+.flex-flower3{
+    position: relative;
+}
+
+.explore-container1{
+    background: #F5F5F5;
+    width: 16%;
+    justify-content: space-around;
+    border: 2px solid transparent;
+    box-shadow: 0px 4px 32px rgba(66, 102, 71, 0.12);
+    position: absolute;
+    top: 249%;
+    left: 18%;
+}
+
+.explore-container2{
+    background: #F5F5F5;
+    width: 16%;
+    justify-content: space-around;
+    border: 2px solid transparent;
+    box-shadow: 0px 4px 32px rgba(66, 102, 71, 0.12);
+    position: absolute;
+    top: 249%;
+    left: 43%;
+}
+
+.explore-container3{
+    background: #F5F5F5;
+    width: 16%;
+    justify-content: space-around;
+    border: 2px solid transparent;
+    box-shadow: 0px 4px 32px rgba(66, 102, 71, 0.12);
+    position: absolute;
+    top: 249%;
+    left: 68%;
+}
+
+.small-box-flower1, 
+.small-box-flower2,
+.small-box-flower3{
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 22%;
+    position: relative;
+}
+
+.explore-now1, 
+.explore-now2,
+.explore-now3{
+    position: absolute;
+    top: 64%;
+    right: -2.2%;
+    padding-top: 5%;
+    color: white;
+    background: #426647;
+    width: 92%;
+    text-align: center;
+}
+
+.paragraph3{
+    line-height: 28px;
+}
+
+.everyday{
+    color: grey;
+}
+
+.arrow{
+    text-align: center;
+}
+
+.sextion-4-img{
+    width: 39%;
+    height: auto;
+}
+
+.section-4-flex{
+    display: flex;
+    gap: 23%;
+    margin: 3% 9% 0 15%;
+} 
+
+.section-4{
+   padding-bottom: 3%;
+   background-color: #F5F5F5;
+}
+
+.open{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+footer{
+    background: #3D5834;
+    color: white;
+}
+
+.footer-header{
+    text-transform: uppercase;
+}
+
+.footer-class{
+    align-items: center;
+    display: flex;
+    gap: 9%;
+    margin:  0 15%;
+    padding: 2.5% 0;
+    text-align: left;
+}
+
+.socials{
+    margin-top: 5%;
+}
+
+.social-img{
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+.div-mid p{
+    margin-top: 14%;
+    font-size: smaller;
+}
+
+.text-box{
+    color: white;
+    margin-top: 6%;
+    border: 2px solid white;
+    border-radius:2px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 20%;
+    background-color: transparent;
+}
+
+.button{
+    margin-top: 8%;
+    padding: 2% 10%;
+    background: white;
+    border: 2px solid white;
+    border-radius:5px;
+    color: #426647;
+}
